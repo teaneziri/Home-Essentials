@@ -245,6 +245,11 @@ section#shop-collections .content-size-2 {
   font-size: 18px;
 }
 
+section#shop-collections a {
+  text-decoration: none;
+  color: rgba(255, 253, 195, 255);
+}
+
 /*mission*/
 section#mission .container {
   background: rgba(221, 221, 204, 255);
