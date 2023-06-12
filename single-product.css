@@ -1,0 +1,211 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(256, 252, 244);
+}
+
+section#header .container {
+  width: 90%;
+  margin: 0 auto;
+
+  font-family: "Roboto Slab", serif;
+}
+section#header .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#header .cart-login {
+  display: flex;
+
+  width: 10%;
+  justify-content: space-around;
+}
+
+section#prev-next .container {
+  width: 60%;
+  margin: 0 auto;
+
+  margin-top: 70px;
+}
+
+section#prev-next .upper-photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*Product Info*/
+section#product-info .product {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+section#product-info img {
+  width: 480px;
+}
+
+section#product-info .info h2 {
+  font-size: 30px;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+section#product-info .info p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+section#product-info .info h3 {
+  font-family: "Roboto Slab", serif;
+}
+
+section#product-info .info input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 60px;
+  height: 30px;
+}
+
+section#product-info button {
+  width: 380px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background: #403f2b;
+  color: #fff;
+  font-size: 16px;
+}
+
+section#product-info .info {
+  padding: 15px;
+}
+
+section#product-info ul li {
+  list-style-type: none;
+  border-bottom: 1px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+section#product-info ul {
+  margin-top: 150px;
+}
+
+section#product-info .product-details {
+  width: 500px;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-left: 310px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+/*Footer-top*/
+section#footer-top {
+  height: 500px;
+  background: rgba(232, 229, 155, 255);
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+section#footer-top .container {
+  width: 90%;
+  margin: 0 auto;
+  height: 450px;
+}
+section#footer-top .boxes {
+  display: flex;
+}
+
+section#footer-top .right {
+  display: flex;
+  width: 30%;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+
+section#footer-top .right ul li {
+  list-style: none;
+  line-height: 1.6;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+}
+
+section#footer-top .left {
+  width: 40%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+section#footer-top .left span {
+  display: block;
+}
+
+section#footer-top .left h1 span {
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+}
+
+section#footer-top .left p span {
+  font-size: 18px;
+  line-height: 1.8;
+}
+section#footer-top .left form {
+  margin-top: 20px;
+}
+
+section#footer-top .left input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: rgba(232, 229, 155, 255);
+  height: 30px;
+}
+
+section#footer-top .left button {
+  width: 20%;
+  padding: 10px;
+  border-radius: 20px;
+  background: rgba(232, 229, 155, 255);
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+/*Footer bottom*/
+section#footer-bottom {
+  background: rgba(232, 229, 155, 255);
+}
+
+section#footer-bottom .container {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  height: 150px;
+}
+section#footer-bottom .social {
+  width: 70%;
+
+  margin-left: 50px;
+}
+section#footer-bottom .social ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#footer-bottom .social ul li {
+  list-style-type: none;
+}
+
+section#footer-bottom .social ul li a {
+  list-style-type: none;
+  color: black;
+}
+section#footer-bottom .footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
