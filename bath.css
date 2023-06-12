@@ -1,0 +1,192 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(256, 252, 244);
+}
+
+section#header .container {
+  width: 90%;
+  margin: 0 auto;
+
+  font-family: "Roboto Slab", serif;
+}
+section#header .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#header .cart-login {
+  display: flex;
+
+  width: 10%;
+  justify-content: space-around;
+}
+
+section#main {
+  background: #c4c197;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+section#main .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*MAIN*/
+section#main .content-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid: 20px;
+}
+
+section#main .content-image img {
+  width: 500px;
+  border-radius: 30px;
+  margin-left: 80px;
+}
+
+section#main .content h1 {
+  font-size: 60px;
+  font-family: "Roboto Slab", serif;
+  margin-bottom: 0;
+}
+
+section#main .content {
+  width: 500px;
+}
+
+section#main .content #first {
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+}
+
+section#main .content #second {
+  font-size: 18px;
+  font-family: "Roboto Slab", serif;
+}
+/*Products*/
+section#all-products .container {
+  width: 90%;
+  margin: 0 auto;
+}
+section#all-products .products {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid: 5px;
+  margin-left: 60px;
+}
+section#all-products .product img {
+  width: 380px;
+  height: 500px;
+  border-radius: 30px;
+}
+section#all-products span {
+  display: block;
+  font-family: "Inter", sans-serif;
+}
+/*Footer-top*/
+section#footer-top {
+  height: 500px;
+  background: rgba(232, 229, 155, 255);
+  margin-top: 0;
+  border-bottom: 1px solid black;
+}
+section#footer-top .container {
+  width: 90%;
+  margin: 0 auto;
+  height: 450px;
+}
+section#footer-top .boxes {
+  display: flex;
+}
+
+section#footer-top .right {
+  display: flex;
+  width: 30%;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 180px;
+}
+
+section#footer-top .right ul li {
+  list-style: none;
+  line-height: 1.6;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+}
+
+section#footer-top .left {
+  width: 40%;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+section#footer-top .left span {
+  display: block;
+}
+
+section#footer-top .left h1 span {
+  font-size: 60px;
+  font-family: "Inter", sans-serif;
+}
+
+section#footer-top .left p span {
+  font-size: 18px;
+  line-height: 1.8;
+}
+section#footer-top .left form {
+  margin-top: 20px;
+}
+
+section#footer-top .left input {
+  border: none;
+  border-bottom: 1px solid black;
+  background: rgba(232, 229, 155, 255);
+  height: 30px;
+}
+
+section#footer-top .left button {
+  width: 20%;
+  padding: 10px;
+  border-radius: 20px;
+  background: rgba(232, 229, 155, 255);
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+/*Footer bottom*/
+section#footer-bottom {
+  background: rgba(232, 229, 155, 255);
+}
+
+section#footer-bottom .container {
+  width: 90%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  height: 150px;
+}
+section#footer-bottom .social {
+  width: 70%;
+
+  margin-left: 50px;
+}
+section#footer-bottom .social ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#footer-bottom .social ul li {
+  list-style-type: none;
+}
+
+section#footer-bottom .social ul li a {
+  list-style-type: none;
+  color: black;
+}
+section#footer-bottom .footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
