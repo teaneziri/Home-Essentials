@@ -125,6 +125,11 @@ section#new-in .box-content p {
   font-weight: 550;
 }
 
+section#new-in a {
+  text-decoration: none;
+  color: black;
+}
+
 /*SHOP NOW*/
 section#shop-now .shop-box {
   display: grid;
