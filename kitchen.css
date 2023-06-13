@@ -86,6 +86,10 @@ section#all-products span {
   display: block;
   font-family: "Inter", sans-serif;
 }
+
+section#all-products .product a {
+  text-decoration: none;
+}
 /*Footer-top*/
 section#footer-top {
   height: 500px;
